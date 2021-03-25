@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Hello!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1>Light and Sound Memory Game</h1>
+
+    <p>
+      Welcome to the game! Listen to the pattern and repeat the pattern back using the buttons!
+    </p>
+
+    <button id="startBtn" onclick="startGame()">
+      Start
+    </button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">
+      Stop
+    </button>
+    
+    <p id="lives0" class="hidden">Lives: 0</p>
+    <p id="lives1" class="hidden">Lives: 1</p>
+    <p id="lives2" class="hidden">Lives: 2</p>
+    <p id="lives3">Lives: 3</p>
+    
+    <p id="filler">---</p>
+    <p id="second0" class="hidden">00:00</p>
+    <p id="second1" class="hidden">00:01</p>
+    <p id="second2" class="hidden">00:02</p>
+    <p id="second3" class="hidden">00:03</p>
+    <p id="second4" class="hidden">00:04</p>
+    <p id="second5" class="hidden">00:05</p>
+    <p id="second6" class="hidden">00:06</p>
+    <p id="second7" class="hidden">00:07</p>
+    <p id="second8" class="hidden">00:08</p>
+    <p id="second9" class="hidden">00:09</p>
+    <p id="second10" class="hidden">00:10</p>
+    <p id="second11" class="hidden">00:11</p>
+    <p id="second12" class="hidden">00:12</p>
+    <p id="second13" class="hidden">00:13</p>
+    <p id="second14" class="hidden">00:14</p>
+    <p id="second15" class="hidden">00:15</p>
+    
+    
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()"></button>
+      <button id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()"></button>
+    </div>
+
+  </body>
+</html>
