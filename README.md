@@ -86,7 +86,8 @@ Here's a walkthrough of implemented user stories:
      upon completing this project was backend programming. A lot of this project was frontend based, so I am pretty curious
      about what can be accomplished behind the scenes. I also became curious about the common workflow in web development.
      For example, I'd like to know what web developers prioritize implementing first, and what aspects of websites they find
-     more important than others.
+     more important than others. One last thing I'm curious about is working in teams. I'd like to know how things are split
+     up when a team works on a website together and how they interact with each other throughout the process.
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words)
    - I think there are a lot of things that could be added to this project. First off, I would try to implement a pause button,
